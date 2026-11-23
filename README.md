@@ -1,8 +1,7 @@
-# 🍎 FreshCheck AI – Food Freshness Classification System
+Food Freshness Grading System
 
 A deep learning project that classifies fruit and vegetable images as **Fresh**, **Semi-Fresh** or **Rotten**. Two models are trained and compared: a **custom CNN built from scratch** and a **MobileNetV2 transfer-learning model** (frozen backbone, feature extraction). Both are served in a Streamlit web app that shows their predictions side by side.
 
-*Deep Learning PBL (CSAI3027P)*
 
 ---
 
@@ -56,19 +55,6 @@ Optimization history: the first MobileNetV2 run reached about 88 % and the first
 
 Plots (confusion matrices, training curves, accuracy by produce, misclassified examples) are in `figures/`.
 
-## 5. Project structure
-
-```
-├── app.py                                   # Streamlit app
-├── models/
-│   ├── best_custom_cnn_fixed.keras          # custom CNN
-│   └── best_mobilenetv2.keras               # MobileNetV2
-├── 01_dataset_analysis.ipynb                # dataset exploration
-├── food_freshness_training_improved.ipynb   # training + evaluation
-├── figures/                                 # result plots, results.json
-├── requirements.txt
-└── README.md
-```
 
 ## 6. Run the app
 
