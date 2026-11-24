@@ -69,7 +69,7 @@ Use the same TensorFlow/Keras version that was used for training (TensorFlow 2.2
 
 ## 7. Reproduce the training
 
-1. Open `food_freshness_training_improved.ipynb` on Kaggle with the dataset attached and a GPU enabled.
+1. Open `model_training.ipynb` on Kaggle with the dataset attached and a GPU enabled.
 2. Run all cells. It trains both models, reloads the saved files from disk, evaluates them on the test split, and writes the models and figures.
 3. Copy the `.keras` files into `models/`.
 
